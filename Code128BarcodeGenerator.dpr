@@ -2,7 +2,8 @@ program Code128BarcodeGenerator;
 
 uses
   Vcl.Forms,
-  FormMain_u in 'Forms\FormMain_u.pas' {FormMain};
+  FormMain_u in 'Forms\FormMain_u.pas' {FormMain},
+  UtilBarcodes in 'Utils\UtilBarcodes.pas';
 
 {$R *.res}
 

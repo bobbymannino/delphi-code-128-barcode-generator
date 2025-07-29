@@ -126,6 +126,7 @@
         <DCCReference Include="Forms\FormMain_u.pas">
             <Form>FormMain</Form>
         </DCCReference>
+        <DCCReference Include="Utils\UtilBarcodes.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
