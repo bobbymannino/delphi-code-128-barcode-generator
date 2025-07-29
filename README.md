@@ -1,3 +1,3 @@
-# Delphi Barcode Generator
+# Delphi Code-128 Barcode Generator
 
-A very simple barcode generator written in Delphi
+A very simple code-128 barcode generator written in Delphi

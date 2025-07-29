@@ -1,7 +1,7 @@
-object Form1: TForm1
+object FormMain: TFormMain
   Left = 0
   Top = 0
-  Caption = 'Barcode Generator'
+  Caption = 'Code-128 Barcode Generator'
   ClientHeight = 297
   ClientWidth = 378
   Color = clBtnFace
