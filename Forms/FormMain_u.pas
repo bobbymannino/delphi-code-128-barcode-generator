@@ -34,6 +34,9 @@ var
 begin
   Bitmap := GenerateBarcodeBitmap(EditInput.Text, 2, 50);
   ImageOutput.Picture.Bitmap := Bitmap;
+
+  if Width < Bitmap.Width + 28 then
+    Width := Bitmap.Width + 28;
 end;
 
 end.
