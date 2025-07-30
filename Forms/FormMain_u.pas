@@ -32,7 +32,7 @@ procedure TFormMain.EditInputChange(Sender: TObject);
 var
   Bitmap: TBitmap;
 begin
-  Bitmap := GenerateBarcodeBitmap(EditInput.Text, 6, 50);
+  Bitmap := GenerateBarcodeBitmap(EditInput.Text, 2, 50);
   ImageOutput.Picture.Bitmap := Bitmap;
 end;
 
